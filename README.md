@@ -1,1 +1,1 @@
-# php
+# php Aqui encontran el resultado de las competencias de un curso.
