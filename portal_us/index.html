@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+     <title>login</title>
+     <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="cajafuera">
+    <div class="formulariocaja">
+        <div class="botondeintercambiar">
+		<!--Formulario para el login -->
+        <form id="frmlogin" class="grupo-entradas" method="POST" action="login_registrar.php">
+        <input type="text" class="cajaentradatexto" placeholder="; Ingresar usuario" name="txtusuario" required>
+        <input type="password" class="cajaentradatexto" placeholder="; Ingresar contraseña" name="txtpassword" required>
+        <button type="submit" class="botonenviar" name="btnloginx">Iniciar sesión</button>
+        </form>
+		<!--Formulario para registrar -->
+        <form id="frmregistrar" class="grupo-entradas" method="POST" action="login_registrar.php">
+        <input type="text" class="cajaentradatexto" placeholder="Ingresar usuario" required 
+		name="txtusuario">
+        <input type="password" class="cajaentradatexto" placeholder="Ingresar contraseña" required name="txtpassword">
+        <button type="submit" class="botonenviar" name="btnregistrarx">Registrar</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
